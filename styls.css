@@ -1,0 +1,139 @@
+.menu{
+    background-color: beige;
+        
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: bisque;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.imagem{
+    width: 200px;
+}
+
+nav{
+    flex-direction: row; /* Empilha os itens verticalmente */
+ 
+    justify-content: center;
+
+   
+}
+
+nav ul li {
+    margin-right: 70px;
+    display: inline-flex;
+   
+}
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color:violet;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
+    
+}
+
+nav a:hover {
+    background-color: lightgray; /* Cor de fundo ao passar o mouse */
+    color: black;
+    border: 100px;
+}
+
+
+
+section{
+    display: grid;
+   padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 100px;
+    grid-row-gap:30px;
+    margin-bottom: 150px;
+    
+  
+}
+
+.conteudo_um{
+  
+    background-image: url("/imagem/maes.PNG");
+    background-color: aquamarine;
+      height: 500px;
+      width: 600px;
+    
+   
+}
+
+.conteudo_dois{
+    background-image: url("/imagem/memorialpadre.PNG");
+   
+    background-color:black;
+    
+}
+
+.conteudo_tres{
+    background-image: url("/imagem/mostracultural.PNG");
+     
+    background-position: center; background-color: pink;
+    
+   
+}
+
+.conteudo_quatro{
+    background-image: url("/imagem/concursofotografia.PNG");
+    background-repeat: no-repeat, repeat;
+    height: 500px;
+    background-color: rgb(207, 34, 42);
+
+   
+}
+
+.conteudo_cinco{
+    background-image: url("/imagem/audiovisual.PNG");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(120, 22, 211);
+
+   
+}
+
+.conteudo_seis{
+    
+    background-image: url("/imagem/talentos.PNG");
+      height: 500px;
+
+    background-position: center;
+   cursor: pointer;
+
+   
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(138, 139, 139);
+    height: 80px;
+    text-align: center;
+}
+
+
+
+
+/* Outras regras de estilo, se necessário */
+
